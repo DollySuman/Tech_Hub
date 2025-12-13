@@ -79,3 +79,60 @@ body, html {
         .firstsec{
             padding: 25px;
         }
+
+         .stories {
+            background-color: rgb(0, 0, 0);
+            width: 600px;
+            height: 150px;
+            margin: 0px 40px;
+
+            overflow: auto;
+            white-space: nowrap;
+        }
+
+        
+
+        .user1 img {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            object-fit: cover;
+            display: block;
+            flex: 0 0 auto;
+
+        }
+
+        .users {
+            padding: 6px;
+            display: flex;
+            gap: 10px;
+            flex-shrink: 0;
+
+
+        }
+
+        .user1 {
+            padding: 6px;
+            height: 100px;
+            width: 100px;
+            border-radius: 100%;
+            background: conic-gradient(#f9ce34 0%,
+                    #f9ce34 20%,
+                    #ee2a7b 50%,
+                    #6228d7 75%,
+                    #ff5a00 100%);
+
+
+        }
+
+        .postcontainer{
+            border: 2px solid white;
+            width: 50vw;
+            height: 70vh;
+        }
+
+        .post1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }

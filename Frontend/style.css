@@ -126,13 +126,20 @@ body, html {
         }
 
         .postcontainer{
-            border: 2px solid white;
-            width: 50vw;
+            border: 1px solid rgba(65, 64, 64, 0.637);
+            width: 420px;
             height: 70vh;
+            padding: 5px 20px;
+            box-sizing: border-box;
         }
 
         .post1{
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        .video{
+            height: inherit;
+            width: 380px;
         }

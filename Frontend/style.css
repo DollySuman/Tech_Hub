@@ -160,8 +160,20 @@ body, html {
             display: flex;
             justify-content: flex-start;
             align-items: center;
-            /* position: relative; */
+            position: relative;
             width: 420px;
             padding: 10px;
 
+        }
+
+        .text{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .svg{
+            position: absolute;
+            right: 10px;
         }

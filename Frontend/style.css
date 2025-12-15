@@ -83,7 +83,7 @@ body, html {
          .stories {
             background-color: rgb(0, 0, 0);
             width: 600px;
-            height: 150px;
+            height: 100px;
             margin: 0px 40px;
 
             overflow: auto;
@@ -93,8 +93,8 @@ body, html {
         
 
         .user1 img {
-            width: 100px;
-            height: 100px;
+            width: 70px;
+            height: 70px;
             border-radius: 100%;
             object-fit: cover;
             display: block;
@@ -113,8 +113,8 @@ body, html {
 
         .user1 {
             padding: 6px;
-            height: 100px;
-            width: 100px;
+            height: 70px;
+            width: 70px;
             border-radius: 100%;
             background: conic-gradient(#f9ce34 0%,
                     #f9ce34 20%,
@@ -176,4 +176,55 @@ body, html {
         .svg{
             position: absolute;
             right: 10px;
+        }
+
+        .interact{
+            padding: 10px;
+            width: 400px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .impressions{
+            display: flex;
+            gap: 10px;
+        }
+
+        .impressions svg{
+            width: 30px;
+        }
+
+        .proname{
+            font-weight: bold;
+        }
+
+        .seemore{
+            color: gray;
+        }
+
+        .entercomment{
+            background-color: rgba(45, 41, 41, 0.126);
+            color: white;
+            border: none;
+            height: 18px;
+            padding: 7px 0px;
+            width: 370px;
+            border-radius: 5px;
+        }
+
+        .name_caption{
+            padding: 10px;
+            width: 400px;
+        }
+
+        .commentsection{
+            color: gray;
+             padding: 10px;
+            width: 400px;
+            font-size: 15px;
+        }
+
+        .emoji svg{
+            width: 15px;
+            height: 15px;
         }

@@ -78,8 +78,8 @@ body, html {
         }
 
         .bar{
-            /* background-color: rgba(72, 72, 72, 0.503); */
-            background-color: red;
+            background-color: rgba(72, 72, 72, 0.503);
+            /* background-color: red; */
             width: 2px;
             height: 100vh;
             color: rgb(208, 11, 11);
@@ -241,11 +241,6 @@ body, html {
             height: 15px;
         }
 
-        button svg {
-            fill: white;
-            background-color: black;
-        }
-
         .count{
            padding: 10px;
             width: 400px; 
@@ -253,4 +248,38 @@ body, html {
 
        .fix{
         position: fixed;
+       }
+
+       .btn{
+        background: none;
+        border: none;;
+        background-color: transparent;
+        
+       }
+
+       .postcontainer{
+        position: relative;
+       }
+
+       
+
+       .videobtns{
+        background: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 180px;
+        top: 250px;
+        scale: 1.4;
+
+       }
+
+       .hide{
+        /* display: none; */
+        position: absolute;
+        right: 180px;
+        top: 250px;
+        scale: 1.4;
        }

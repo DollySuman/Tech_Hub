@@ -276,10 +276,11 @@ body, html {
 
        }
 
-       .hide{
-        /* display: none; */
+       .volume{
+        display: flex;
         position: absolute;
-        right: 180px;
-        top: 250px;
-        scale: 1.4;
+        right: 0px;
+        top: 0px;
        }
+
+      
